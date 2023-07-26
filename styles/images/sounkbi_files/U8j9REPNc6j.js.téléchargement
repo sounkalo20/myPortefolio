@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("usePolarisLandingPagePageIdentifier",["PolarisAuthActionConstants","PolarisReactRedux"],(function(a,b,c,d,e,f,g){"use strict";function h(a){switch(a){case d("PolarisAuthActionConstants").AUTH.signup:return"signupPage";case d("PolarisAuthActionConstants").AUTH.none:return"rootLandingPage";case d("PolarisAuthActionConstants").AUTH.login:default:return"loginPage"}}function a(){var a=d("PolarisReactRedux").useSelector(function(a){return a.auth});a=a.authType;return h(a)}g["default"]=a}),98);
